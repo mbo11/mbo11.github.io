@@ -1,0 +1,64 @@
+body,
+html {
+	height: 100%;
+	width: 100%;
+	font-family: 'Baskervville';
+	background: url(background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.row {
+	margin: 0 auto;
+}
+
+.box {
+	background-color: rgba(255,255,255, 0.6);
+    color: #000000;
+    padding: 20px;
+	border-radius: 20px;
+}
+
+h1 {
+	font-family: 'Baskervville';
+	font-size: 3rem;
+	text-align: center;
+}
+
+hr {
+	margin: 20px auto;
+	color: #F05F44;
+	border: 2px solid #F05F44;
+	max-width: 150px;
+	opacity: 1;
+	box-shadow: 1px 2px black;
+}
+
+.btn {
+	font-family: 'Montserrat';
+	font-size: 20px;
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+	white-space: normal;
+
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border: 4px solid transparent;
+  padding: 10px;
+  box-shadow: 2px 5px black;
+}
+
+.btn-primary:hover {
+	background-color: #FF8800;
+	border-color: #FF8800;
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+}
+
